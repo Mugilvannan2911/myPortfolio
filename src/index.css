@@ -29,11 +29,20 @@
 }
 
 
+html,
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
     font-family: sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 nav {

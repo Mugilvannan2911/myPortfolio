@@ -25,7 +25,7 @@ const Home = () => {
             <div className="relative group flex flex-col items-center">
 
               {/* Image wrapper — no rotation */}
-              <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 flex items-center justify-center">
+              <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] flex items-center justify-center">
 
                 {/* Rotating outer ring (absolutely positioned, pure CSS) */}
                 <div className="absolute inset-0 rounded-full animate-spin-slow"
