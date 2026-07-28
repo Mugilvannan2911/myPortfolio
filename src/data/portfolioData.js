@@ -2,7 +2,7 @@
 
 export const personalInfo = {
     name: "Mugilvannan R",
-    role: "Junior Web Developer",
+    role: "Software Developer",
     tagline: "Passionate about creating beautiful, functional, and user-centered digital experiences",
     email: "mugilvannan1129@gmail.com",
     phone: "+91 9500942911",
@@ -21,7 +21,7 @@ export const personalInfo = {
         intro: "I'm a passionate Full Stack Developer with a keen eye for design and a love for creating seamless digital experiences.",
         description: "My journey in web development started with a curiosity about how things work on the internet. Today, I specialize in building modern web applications using cutting-edge technologies like React, Node.js, and cloud platforms.",
         passion: "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
-        yearsExperience: "2+",
+        yearsExperience: "2.3",
         // projectsCompleted: "5+",
         // happyClients: "30+"
     }
@@ -32,29 +32,37 @@ export const skills = {
         { name: 'HTML', level: 95 },
         { name: 'CSS', level: 95 },
         { name: 'JavaScript', level: 95 },
-        { name: 'jQuery', level: 95 },
-        { name: 'React', level: 90 },
-        { name: 'Tailwind CSS', level: 90 },
+        { name: 'TypeScript', level: 85 },
+        { name: 'React.js', level: 90 },
+        { name: 'jQuery', level: 90 },
+        { name: 'AJAX', level: 85 },
         { name: 'Bootstrap', level: 90 },
-        { name: 'TypeScript', level: 85 }
+        { name: 'Tailwind CSS', level: 90 }
     ],
-    tools: [
+    backend: [
+        { name: 'Node.js', level: 80 },
+        { name: 'JSON', level: 90 },
+        { name: 'REST API', level: 85 },
+        { name: 'Docker', level: 75 },
+        { name: 'Nginx', level: 75 }
+    ],
+    stateManagementAndUI: [
+        { name: 'Redux Toolkit', level: 85 },
+        { name: 'React Query', level: 85 },
+        { name: 'Chart.js', level: 80 },
+        { name: 'Material UI (MUI)', level: 85 },
+        { name: 'Framer Motion', level: 80 },
+        { name: 'Postman', level: 90 }
+    ],
+    databaseAndTools: [
         { name: 'Git', level: 92 },
         { name: 'GitHub', level: 90 },
-        { name: 'VS Code', level: 95 },
+        { name: 'MySQL', level: 85 },
+        { name: 'VS Code', level: 95 }
     ]
 };
 
 export const projects = [
-    {
-        title: 'i-Neer – Water Management Panel',
-        category: 'Front end',
-        description: 'i-Neer is a centralized water management panel designed to monitor and control water-related operations across State, District, Union, and Panchayat levels. The system enables efficient complaint management, water tank monitoring, and tracking of cleaning and maintenance activities. With hierarchical filtering and a structured dashboard, i-Neer improves transparency, operational efficiency, and faster issue resolution in public water management.',
-        image: '/ineer-water-panel.png',
-        tags: ['Html', 'Css', 'Bootstrap', 'jQuery', 'Java Script'],
-        liveLink: 'http://devftp.itank.io/water/ineer/',
-        gradient: 'from-blue-500 to-cyan-500'
-    },
     {
         title: 'i-Tank',
         category: 'Front end',
@@ -62,6 +70,23 @@ export const projects = [
         image: '/itank-water-management.png',
         tags: ['Html', 'Css', 'Tailwind Css', 'React js'],
         liveLink: 'https://web.itank.io/login',
+        gradient: 'from-blue-500 to-cyan-500'
+    },
+    {
+        title: 'iGPS – Location-Based GPS Tracking Platform',
+        category: 'Full Stack',
+        description: 'Developed a real-time GPS tracking web application for location monitoring, trip history, and route visualization. Integrated Google Maps API to implement interactive maps with geo-fencing, route playback, markers, polylines, and location-based route spot management. Built analytics dashboards using Chart.js and implemented PDF/Excel report generation.',
+        image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80',
+        tags: ['React', 'TypeScript', 'Vite', 'Redux Toolkit', 'React Query', 'Tailwind CSS', 'Material UI'],
+        gradient: 'from-blue-500 to-cyan-500'
+    },
+    {
+        title: 'i-Neer – Water Management Panel',
+        category: 'Front end',
+        description: 'i-Neer is a centralized water management panel designed to monitor and control water-related operations across State, District, Union, and Panchayat levels. The system enables efficient complaint management, water tank monitoring, and tracking of cleaning and maintenance activities. With hierarchical filtering and a structured dashboard, i-Neer improves transparency, operational efficiency, and faster issue resolution in public water management.',
+        image: '/ineer-water-panel.png',
+        tags: ['Html', 'Css', 'Bootstrap', 'jQuery', 'Java Script'],
+        liveLink: 'http://devftp.itank.io/water/ineer/',
         gradient: 'from-blue-500 to-cyan-500'
     },
     {
@@ -87,7 +112,7 @@ export const projects = [
 export const experience = [
     {
         type: 'work',
-        title: 'Junior Web Developer',
+        title: 'Software Developer',
         company: 'Real Tech Systems',
         location: 'Erode Road, No.5/B, Cross Street 1, Vengamedu, Perundurai, Tamil Nadu 638052',
         period: '2024 - Present',
@@ -99,6 +124,19 @@ export const experience = [
             'Built reusable components to reduce development time by 30%',
             'Enhanced UI/UX responsiveness across mobile, tablet, and desktop devices',
             'Resolved critical production bugs and improved system stability'
+        ]
+    },
+    {
+        type: 'work',
+        title: 'Verification Expert',
+        company: 'Mahendra Next Wealth',
+        location: 'Namakkal',
+        period: '03/2023 - 05/2024',
+        description: 'Verified and validated government ID proofs and official documents to ensure accuracy and compliance. Maintained high levels of attention to detail and data accuracy while handling sensitive information.',
+        achievements: [
+            'Verified and validated government ID proofs and official documents to ensure accuracy and compliance.',
+            'Maintained high levels of attention to detail and data accuracy while handling sensitive information.',
+            'Collaborated with team members to meet daily verification targets within given timelines.'
         ]
     },
     {

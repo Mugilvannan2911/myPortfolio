@@ -139,8 +139,10 @@ const Experience = () => {
             data-aos-duration="1000"
           >
             <a
-              href="/MUGILVANNAN R_Resume.pdf"
-              download="MUGILVANNAN_R_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Mugilvannan_R_Resume.pdf`}
+              download="Mugilvannan_R_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-semibold hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-2xl"
             >
               <svg

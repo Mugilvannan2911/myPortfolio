@@ -157,12 +157,28 @@ const skillCategories = [
     skills: skills.frontend,
   },
   {
-    title: 'Tools & Others',
+    title: 'Backend',
+    emoji: '⚙️',
+    color: 'from-green-500 to-emerald-400',
+    gradientColors: ['#22c55e', '#34d399'],
+    gradientId: 'green',
+    skills: skills.backend,
+  },
+  {
+    title: 'State & UI',
+    emoji: '✨',
+    color: 'from-purple-500 to-pink-400',
+    gradientColors: ['#a855f7', '#ec4899'],
+    gradientId: 'purple',
+    skills: skills.stateManagementAndUI,
+  },
+  {
+    title: 'Database & Tools',
     emoji: '🛠️',
     color: 'from-orange-500 to-rose-500',
     gradientColors: ['#f97316', '#f43f5e'],
     gradientId: 'orange',
-    skills: skills.tools,
+    skills: skills.databaseAndTools,
   },
 ];
 
